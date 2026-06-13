@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Entrata",
+  "url": "https://www.entrata.com/",
+  "description": "Entrata is a property management platform for multifamily housing that provides an all-in-one operating system for autonomous property management. Its REST API enables integration partners to access and manage properties, residents, leases, maintenance, payments, and reporting data in near real-time.",
+  "sameAs": [
+    "https://github.com/entrata",
+    "https://www.linkedin.com/company/entratasoftware",
+    "https://x.com/entrata"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Entrata API",
+    "description": "The Entrata API provides programmatic access to the Entrata property management platform, enabling integration partners to read and write property, resident, lease, maintenance, payment, and financial data.",
+    "url": "https://docs.entrata.com/api/v1/documentation"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "url": "https://developer.entrata.com/catalog/all",
+    "name": "Entrata Developer Portal"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "developer support",
+    "url": "https://developer.entrata.com/catalog/all"
+  },
+  "potentialAction": {
+    "@type": "ReadAction",
+    "target": "https://docs.entrata.com/api/v1/documentation"
+  }
+}
