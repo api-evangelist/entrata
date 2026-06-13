@@ -1,0 +1,26 @@
+name: Entrata API Rate Limits
+description: Entrata enforces rate limits on API usage to prevent abuse and ensure platform stability. These limits apply per client, per property, per web service endpoint.
+url: https://commoncdn.entrata.com/legal/api/api_document_agreement.html
+limits:
+  - name: Per-minute limit
+    description: One (1) API call per client per property per minute per web service
+    window: 1 minute
+    requests: 1
+    scope: per client per property per web service
+  - name: Daily limit
+    description: No more than 2,500 API calls in a twenty-four hour period
+    window: 24 hours
+    requests: 2500
+    scope: per client
+enforcement:
+  - Temporary suspension for exceeding thresholds
+  - Permanent access termination for repeated violations
+  - Limits may be changed in the future without notice to Developer
+security:
+  - IP whitelisting is mandatory for all API integrations
+  - Entrata whitelists IP addresses and immediately denies access to non-whitelisted IPs
+  - Developers must maintain confidentiality of credentials, passwords, test keys, and authentication methods
+notes:
+  - Rate limits are defined in the API Developer Interface Agreement
+  - Limits apply per web service method, enabling multiple different service calls within the same minute
+  - Developers should implement retry logic with exponential backoff to handle rate limit responses

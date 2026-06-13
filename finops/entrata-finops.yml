@@ -1,0 +1,24 @@
+name: Entrata FinOps
+description: Financial operations considerations for integrating with the Entrata API. Entrata is an enterprise platform with negotiated pricing; API access is not sold separately but is included as part of the partner integration agreement with mutual clients.
+url: https://www.entrata.com/partners
+cost_model:
+  type: enterprise-negotiated
+  description: Entrata pricing is not publicly listed. Costs are negotiated directly with Entrata as part of an enterprise software agreement. API access is gated through the partner ecosystem and requires a signed Developer Interface Agreement.
+  api_pricing: Included in partner integration agreement; no separate per-call API fees published
+cost_factors:
+  - name: Platform licensing
+    description: Entrata charges property management companies for platform access; pricing scales with number of units managed
+  - name: Integration partner fees
+    description: Integration partners may be subject to fees or revenue-sharing arrangements as part of the partner ecosystem program
+  - name: Common Client requirement
+    description: API access is only available for shared clients (entities licensed by both Entrata and the integration partner), limiting the addressable integration scope
+optimization:
+  - Respect rate limits (1 call/minute/property/service, 2,500/day) to avoid service suspension
+  - Implement caching to reduce redundant API calls and stay within daily limits
+  - Use bulk/batch endpoints where available to maximize data retrieved per call
+  - Monitor API usage against the 2,500 daily call limit to avoid unexpected access suspension
+considerations:
+  - No public self-service API tier; all access requires partner agreement
+  - No published pay-per-call or usage-based pricing for the API
+  - Financial exposure is primarily in integration development costs, not per-call fees
+  - Entrata reserves the right to modify API access and terms without notice

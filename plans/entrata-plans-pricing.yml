@@ -1,0 +1,27 @@
+name: Entrata Plans and Pricing
+description: Entrata offers enterprise property management software with API access available to integration partners. Pricing is not publicly listed and requires direct contact with Entrata. API access requires a signed Developer Interface Agreement and is gated through a partner ecosystem program.
+url: https://www.entrata.com/partners
+contact:
+  - type: sales
+    url: https://www.entrata.com/request-a-demo
+plans:
+  - name: Enterprise
+    description: Full-featured property management operating system for multifamily housing operators. Includes access to the Entrata API for approved integration partners.
+    features:
+      - Properties management
+      - Resident portal and experience tools
+      - Leasing and lease management
+      - Maintenance management
+      - Accounting and financial reporting
+      - Business intelligence and analytics
+      - AI-powered workflows (Entrata Layered Intelligence)
+      - Resident payments processing
+      - Utility management
+      - Digital marketing and lead management
+    pricing: Contact Entrata for enterprise pricing
+    api_access: Available to approved integration partners via signed agreement
+notes:
+  - API access requires an agreement between the developer's company and Entrata
+  - API access is limited to Common Clients (entities licensed by both Entrata and the integration partner)
+  - Entrata does not publish public pricing tiers; all pricing is negotiated enterprise-style
+  - Developers must contact Entrata through the partner ecosystem program to gain API access
