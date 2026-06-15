@@ -1,9 +1,9 @@
 {
   "url": "https://www.entrata.com/blog",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
-      "title": "The Trust Gap in Proptech — and What Closing It Actually Looks Like",
+      "title": "The Trust Gap in Proptech \u2014 and What Closing It Actually Looks Like",
       "url": "https://entrata.com/blog/the-trust-gap-in-proptech",
       "date": "2026-06-09"
     },
@@ -13,7 +13,7 @@
       "date": "2026-06-10"
     },
     {
-      "title": "New in Homebody: The Admin Portal — One Place to Configure and Control the Resident Experience",
+      "title": "New in Homebody: The Admin Portal \u2014 One Place to Configure and Control the Resident Experience",
       "url": "https://entrata.com/blog/new-in-homebody-the-admin-portal",
       "date": "2026-06-09"
     },
@@ -52,5 +52,16 @@
       "url": "https://entrata.com/blog/inside-the-modern-renter-mindset-what-todays-data-means-for-multifamily-operators",
       "date": "2026-05-29"
     }
-  ]
+  ],
+  "repo": "entrata",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/entratasoftware",
+      "feed_url": "https://www.linkedin.com/company/entratasoftware",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
