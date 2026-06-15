@@ -1,64 +1,75 @@
 aid: entrata
 name: Entrata
-description: Entrata is a property management platform for multifamily housing that provides an all-in-one operating system for autonomous property management. Its REST API enables integration partners to access and manage properties, residents, leases, maintenance, payments, and reporting data in near real-time. API access requires a signed Developer Interface Agreement and is available only to approved partners with shared clients.
+description: Entrata is a property management platform for multifamily housing that
+  provides an all-in-one operating system for autonomous property management. Its
+  REST API enables integration partners to access and manage properties, residents,
+  leases, maintenance, payments, and reporting data in near real-time. API access
+  requires a signed Developer Interface Agreement and is available only to approved
+  partners with shared clients.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/entrata/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
 specificationVersion: '0.19'
 tags:
-  - Property Management
-  - Multifamily Housing
-  - Real Estate
-  - Resident Management
-  - Leasing
+- Property Management
+- Multifamily Housing
+- Real Estate
+- Resident Management
+- Leasing
+- Maintenance
+- Payments
+- Accounting
+apis:
+- name: Entrata API
+  description: The Entrata API provides programmatic access to the Entrata property
+    management platform, enabling integration partners to read and write property,
+    resident, lease, maintenance, payment, and financial data. The API uses a service-oriented
+    model with XML and JSON support, and requires IP whitelisting and partner agreement
+    for access.
+  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  humanURL: https://docs.entrata.com/api/v1/documentation
+  baseURL: https://YOUR_DOMAIN.entrata.com/api
+  tags:
+  - Properties
+  - Units
+  - Residents
+  - Leases
   - Maintenance
   - Payments
-  - Accounting
-apis:
-  - name: Entrata API
-    description: The Entrata API provides programmatic access to the Entrata property management platform, enabling integration partners to read and write property, resident, lease, maintenance, payment, and financial data. The API uses a service-oriented model with XML and JSON support, and requires IP whitelisting and partner agreement for access.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    humanURL: https://docs.entrata.com/api/v1/documentation
-    baseURL: https://YOUR_DOMAIN.entrata.com/api
-    tags:
-      - Properties
-      - Units
-      - Residents
-      - Leases
-      - Maintenance
-      - Payments
-      - Reporting
-    properties:
-      - type: Documentation
-        url: https://docs.entrata.com/api/v1/documentation
-      - type: DeveloperPortal
-        url: https://developer.entrata.com/catalog/all
-      - type: TermsOfService
-        url: https://commoncdn.entrata.com/legal/api/api_document_agreement.html
-common:
-  - type: Website
-    url: https://www.entrata.com/
+  - Reporting
+  properties:
   - type: Documentation
-    url: https://docs.entrata.com/
-  - type: GitHubOrg
-    url: https://github.com/entrata
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/entratasoftware
-  - type: Blog
-    url: https://www.entrata.com/blog
-  - type: Pricing
-    url: https://www.entrata.com/partners
-  - type: StatusPage
-    url: https://status.entrata.com/
-  - type: X
-    url: https://x.com/entrata
-  - type: Plans
-    url: plans/entrata-plans-pricing.yml
-  - type: RateLimits
-    url: rate-limits/entrata-rate-limits.yml
-  - type: FinOps
-    url: finops/entrata-finops.yml
+    url: https://docs.entrata.com/api/v1/documentation
+  - type: DeveloperPortal
+    url: https://developer.entrata.com/catalog/all
+  - type: TermsOfService
+    url: https://commoncdn.entrata.com/legal/api/api_document_agreement.html
+  - url: graphql/entrata-graphql.md
+    type: GraphQL
+common:
+- type: Website
+  url: https://www.entrata.com/
+- type: Documentation
+  url: https://docs.entrata.com/
+- type: GitHubOrg
+  url: https://github.com/entrata
+- type: LinkedIn
+  url: https://www.linkedin.com/company/entratasoftware
+- type: Blog
+  url: https://www.entrata.com/blog
+- type: Pricing
+  url: https://www.entrata.com/partners
+- type: StatusPage
+  url: https://status.entrata.com/
+- type: X
+  url: https://x.com/entrata
+- type: Plans
+  url: plans/entrata-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/entrata-rate-limits.yml
+- type: FinOps
+  url: finops/entrata-finops.yml
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
