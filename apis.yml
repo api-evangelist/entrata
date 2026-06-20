@@ -6,7 +6,7 @@ description: Entrata is a property management platform for multifamily housing t
   leases, maintenance, payments, and reporting data in near real-time. API access
   requires a signed Developer Interface Agreement and is available only to approved
   partners with shared clients.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/entrata/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -27,7 +27,7 @@ apis:
     resident, lease, maintenance, payment, and financial data. The API uses a service-oriented
     model with XML and JSON support, and requires IP whitelisting and partner agreement
     for access.
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.entrata.com/api/v1/documentation
   baseURL: https://YOUR_DOMAIN.entrata.com/api
   tags:
