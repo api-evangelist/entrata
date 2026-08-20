@@ -26,6 +26,15 @@ specificationVersion: '0.23'
 tags:
 - Property Management
 - Multifamily Housing
+- Real-Estate
+- Resident Management
+- Leasing
+- Maintenance
+- Payments
+- Accounting
+tags_raw:
+- Property Management
+- Multifamily Housing
 - Real Estate
 - Resident Management
 - Leasing
