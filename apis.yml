@@ -37,7 +37,7 @@ specificationVersion: '0.23'
 tags:
 - Property Management
 - Multifamily Housing
-- Real-Estate
+- Real Estate
 - Resident Management
 - Leasing
 - Maintenance
@@ -52,6 +52,7 @@ tags_raw:
 - Maintenance
 - Payments
 - Accounting
+- Real-Estate
 apis:
 - name: Entrata API
   description: The Entrata API provides programmatic access to the Entrata property
@@ -77,8 +78,6 @@ apis:
     url: https://developer.entrata.com/catalog/all
   - type: TermsOfService
     url: https://commoncdn.entrata.com/legal/api/api_document_agreement.html
-  - url: graphql/entrata-graphql.md
-    type: GraphQL
 common:
 - type: DomainSecurity
   url: security/entrata-domain-security.yml
