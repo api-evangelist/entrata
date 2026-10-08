@@ -29,3 +29,16 @@ notes:
   - API access is limited to Common Clients (entities licensed by both Entrata and the integration partner)
   - Entrata does not publish public pricing tiers; all pricing is negotiated enterprise-style
   - Developers must contact Entrata through the partner ecosystem program to gain API access
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: Enterprise
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
