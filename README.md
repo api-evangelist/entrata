@@ -64,37 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Entrata is a property management platform for multifamily housing that provides an all-in-one operating system for autonomous property management. Its API enables integration partners to access and manage properties, residents, leases, maintenance, payments, and reporting data in near real-time.
+Entrata is a property management platform for multifamily housing that provides an all-in-one operating system for autonomous property management. Its REST API enables integration partners to access and manage properties, residents, leases, maintenance, payments, and reporting data in near real-time. API access requires a signed Developer Interface Agreement and is available only to approved partners with shared clients.
 
-## API
+**Areas:** Property Management · Multifamily Housing · Real Estate · Resident Management · Leasing · Maintenance · Payments · Accounting
 
-The Entrata API is available to approved integration partners and requires a signed Developer Interface Agreement. It supports JSON and XML formats and provides access to core property management data including:
+## Entrata on APIs.io
 
-- Properties and property units
-- Residents and leasing
-- Maintenance workflows
-- Payments and financial data
-- Reporting and analytics
+Everything profiled for Entrata is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/entrata/](https://apis.io/providers/entrata/)** — or go straight to one of the APIs or properties below.
 
-**Documentation:** https://docs.entrata.com/api/v1/documentation  
-**Developer Portal:** https://developer.entrata.com/catalog/all  
-**Status:** https://status.entrata.com/
+### APIs (1)
 
-## Authentication
+- [Entrata API](https://apis.io/apis/entrata/entrata-api/) — The Entrata API provides programmatic access to the Entrata property management platform, enabling integration partners to read and write property,…
 
-API access requires IP whitelisting and a signed partner agreement. Access is restricted to Common Clients — entities that are licensed users of both Entrata and the integration partner's platform.
+### Published properties
 
-## Rate Limits
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- 1 call per client per property per minute per web service
-- 2,500 calls per 24-hour period
+#### GraphQL (1)
 
-## Links
+GraphQL schemas.
 
-- **Website:** https://www.entrata.com/
-- **Documentation:** https://docs.entrata.com/
-- **Blog:** https://www.entrata.com/blog
-- **Partners:** https://www.entrata.com/partners
-- **GitHub:** https://github.com/entrata
-- **LinkedIn:** https://www.linkedin.com/company/entratasoftware
-- **Status:** https://status.entrata.com/
+- [Moved to /providers/entrata/](https://apis.io/graphqls/entrata/entrata-graphql/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Entrata Domain Security](https://apis.io/security/entrata/entrata-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Entrata Plans Pricing](https://apis.io/plans/entrata/entrata-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Entrata Rate Limits](https://apis.io/rate-limits/entrata/entrata-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Entrata Finops](https://apis.io/finops/entrata/entrata-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.entrata.com/)
+- [Documentation](https://docs.entrata.com/)
+- [Pricing](https://www.entrata.com/partners)
+- [Blog](https://www.entrata.com/blog)
+- [Status](https://status.entrata.com/)
+
+## API Evangelist rating
+
+**Kin Score 16.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 26.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 8.9** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/entrata/](https://apis.io/providers/entrata/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Entrata: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/entrata/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
